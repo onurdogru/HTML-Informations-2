@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <!--FORM HAZIRLARKEN TR VE TD ETİKETLERİ İLE HAZIRLAMAK DAHA DÜZEN İÇERİR-->
+        <h1>Lütfen Formu Eksiksiz Doldurunuz</h1>
+        <hr>
+        <h2>Hesap Bilgileriniz</h2>
+
+        <form action="register.php">
+        <div>
+        <label for="Adınız">Kullanıcı Adı:  </label>
+        <td>
+            <tr> 
+                <input type="text" placeholder="Kullanıcı Adı"> <!--Textbox oluşturma satırı-->
+            </tr>
+        </td>
+       
+        </div>
+
+        <div>
+            <label for="Soyadınız">E-Posta:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="Soyadınız">Parola :</label>
+            <input type="text">
+        </div>
+        <h2>Kişisel Bilgileriniz</h2>
+        <div>
+            <label for="Adınız">Adınız:  </label>
+            <input type="text"> <!--Textbox oluşturma satırı-->
+            </div>
+    
+            <div>
+                <label for="Soyadınız">Soyadınız:</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="Şehir">Şehir: </label>
+                <input type="">
+            </div>
+
+        <div>
+            <label for="Cinsiyet">Cinsiyet:</label>
+            <label for="Oturum">Erkek</label>
+            <input type="radio" name="oturum" id="html">
+            <label for="Oturum">Kadın</label>
+            <input type="radio" name="edevlet" id="html">
+            
+        </div>
+
+        <div>
+            <label for="Hobi">Hobileriniz:</label>
+            <label for="Hobi">Sinema</label>
+            <input type="checkbox">
+
+            <label for="Hobi">Spor</label>
+            <input type="checkbox">
+
+            <label for="Hobi">Kitap</label>
+            <input type="checkbox">
+        </div>
+        
+
+        <button type="submit" > Kaydet </button> <!--Kaydet butonu oluştururuz.-->
+
+    </form>
+    
+</body>
+
+</html>

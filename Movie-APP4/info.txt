@@ -1,0 +1,10 @@
+1-) anasayfa.html sayfasına semantic etiketlerle dizilim yapınız.
+
+<header>
+<nav>
+<section>
+<main>
+<aside>
+<article>
+
+2-) En iyi Filmler, En Son Çıkan Filmler, En Fazla Oy Alan Filmler başlıkları olsun.
